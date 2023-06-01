@@ -1,0 +1,11 @@
+C:\Users\UY1-02\Desktop\Yeni klasör\Kayıt\Kayıt\bin\Debug\Kayıt.exe.config
+C:\Users\UY1-02\Desktop\Yeni klasör\Kayıt\Kayıt\bin\Debug\Kayıt.exe
+C:\Users\UY1-02\Desktop\Yeni klasör\Kayıt\Kayıt\bin\Debug\Kayıt.pdb
+C:\Users\UY1-02\Desktop\Yeni klasör\Kayıt\Kayıt\obj\Debug\Kayıt.csproj.AssemblyReference.cache
+C:\Users\UY1-02\Desktop\Yeni klasör\Kayıt\Kayıt\obj\Debug\Kayıt.csproj.SuggestedBindingRedirects.cache
+C:\Users\UY1-02\Desktop\Yeni klasör\Kayıt\Kayıt\obj\Debug\Kayıt.Form1.resources
+C:\Users\UY1-02\Desktop\Yeni klasör\Kayıt\Kayıt\obj\Debug\Kayıt.Properties.Resources.resources
+C:\Users\UY1-02\Desktop\Yeni klasör\Kayıt\Kayıt\obj\Debug\Kayıt.csproj.GenerateResource.cache
+C:\Users\UY1-02\Desktop\Yeni klasör\Kayıt\Kayıt\obj\Debug\Kayıt.csproj.CoreCompileInputs.cache
+C:\Users\UY1-02\Desktop\Yeni klasör\Kayıt\Kayıt\obj\Debug\Kayıt.exe
+C:\Users\UY1-02\Desktop\Yeni klasör\Kayıt\Kayıt\obj\Debug\Kayıt.pdb
