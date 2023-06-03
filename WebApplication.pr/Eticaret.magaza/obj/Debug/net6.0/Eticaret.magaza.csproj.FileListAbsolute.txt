@@ -29,3 +29,6 @@ C:\Users\UY1-02\Desktop\Yeni klasör\WebApplication.pr\Eticaret.magaza\obj\Debug
 C:\Users\UY1-02\Desktop\Yeni klasör\WebApplication.pr\Eticaret.magaza\obj\Debug\net6.0\Eticaret.magaza.pdb
 C:\Users\UY1-02\Desktop\Yeni klasör\WebApplication.pr\Eticaret.magaza\obj\Debug\net6.0\Eticaret.magaza.genruntimeconfig.cache
 C:\Users\UY1-02\Desktop\Yeni klasör\WebApplication.pr\Eticaret.magaza\obj\Debug\net6.0\ref\Eticaret.magaza.dll
+C:\Users\UY1-02\Desktop\Yeni klasör\WebApplication.pr\Eticaret.magaza\bin\Debug\net6.0\Eticaret.Model.dll
+C:\Users\UY1-02\Desktop\Yeni klasör\WebApplication.pr\Eticaret.magaza\bin\Debug\net6.0\Eticaret.Model.pdb
+C:\Users\UY1-02\Desktop\Yeni klasör\WebApplication.pr\Eticaret.magaza\obj\Debug\net6.0\Eticaret.magaza.csproj.CopyComplete

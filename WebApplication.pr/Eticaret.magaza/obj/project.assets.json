@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "Eticaret.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Eticaret.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Eticaret.Model.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Eticaret.Model/1.0.0": {
+      "type": "project",
+      "path": "../Eticaret.Model/Eticaret.Model.csproj",
+      "msbuildProject": "../Eticaret.Model/Eticaret.Model.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "Eticaret.Model >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\UY1-02\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\WebApplication.pr\\Eticaret.Model\\Eticaret.Model.csproj": {
+              "projectPath": "C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\WebApplication.pr\\Eticaret.Model\\Eticaret.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
