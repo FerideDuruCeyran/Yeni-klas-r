@@ -1,12 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
+
+using System.Runtime.CompilerServices;
 
 namespace Eticaret.Model.Enums
 {
-    internal class MaritalStatus
+    public enum MaritalStatus
     {
+        [EnumDisplayName("Bekar")]
+        Single,
+        [EnumDisplayName("Evli")]
+        Married,
+        [EnumDisplayName("")]
+        Widow,
+        [EnumDisplayName("Boşanmış")]
+        Divorced,
+    }
+    public class EnumDisplayName: Attribute 
+    {
+        public string DisplayName { get; set; } = "";
+        public EnumDisplayName(string displayName)
+        {
+            DisplayName = displayName;
+        }
+       
     }
 }

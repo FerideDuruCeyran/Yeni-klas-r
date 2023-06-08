@@ -1,6 +1,8 @@
-﻿@{
+﻿@model Eticaret.Model.Register;
+@using Eticaret.Model.Enums
+@{
     Layout = null;
-}
+    
 
 <!DOCTYPE html>
 
@@ -15,18 +17,56 @@
             <div class="col-md-4 offset-md-4">
                 <div class="card">
                     <div class="card-header">
-                        <div class="card-title">Kaydol</div>
+                        <div class="card-title">Hemen Şimdi Üye Ol</div>
                         <div>
-                            <div class="card-body">
-                                <form>
-                                </form>
-                            </div>
-                            <div class="card-footer">
-                                <center>
-                                    <button class="btn btn-outline-primary">Kaydol</button>
-                                </center>
+                            <form>
+                                <div class="card-body">
+                                    <div class="mb-3">
+                                        @Html.LabelFor(m=>m.Email, new{@class="form-label",style="font-weight:bold;"})
+                                        @Html.TextBoxFor(m=>m.Email,new{@class="form-control"})
+                                    </div>
+                                    <div class="row">
+                                        <div class="mb-3 col-6">
+                                            @Html.LabelFor(m=>m.Firstname,new{@class="form-label",style="font-weight:bold;"})
+                                            @Html.TextBoxFor(m=>m.Firstname,new{@class="form-control"})
+                                        </div>
+                                        <div class="mb-3 col-6">
+                                            @Html.LabelFor(m=>m.Lastname,new{@class="form-label",style="font-weight:bold;"})
+                                            @Html.TextBoxFor(m=>m.Lastname,new{@class="form-control"})
+                                        </div>
+                                    </div>
+                                    <div class="row mb-3">
+                                        <div class=" col-md-6">
+                                            @Html.LabelFor(m=>m.Birthday,new{@class="form-label",style="font-weight:bold;"})
+                                            @Html.TextBoxFor(m=>m.Birthday,new{@class="form-control",type="date"
+                                            })
+                                        </div>
+                                        <div class="col-md-6">
 
-                            </div>
+                                            @Html.LabelFor(m=>m.MaritalStatus,new{@class="form-label",style="font-weight:bold;"})
+                                            @Html.DropDownListFor(m=>m.MaritalStatus,new SelectList(Enum.GetValues(typeof(MaritalStatus))),new{@class="form-select"})
+                                            
+                                        </div>
+                                    </div>
+                                    <div>
+                                        @Html.RadioButtonFor(m=>m.Gender,Gender.Female,new{@class="form-check-input"})
+                                        <label class="fw-bold" style="margin-right:30px;">Kadın</label>
+                                        @Html.RadioButtonFor(m=>m.Gender,Gender.Male,new{@class="form-check-input"})
+                                        <label class="fw-bold">Erkek</label>
+                                    </div>
+
+                                    <div>
+                                        @Html.LabelFor(m=>m.Password,new{@class="form-label",style="font-weight:bold;"})
+                                        @Html.PasswordFor(m=>m.Password,new{@class="form-control"})
+                                    </div>
+
+                                </div>
+                                <div class="card-footer text-center">
+                                    <button class="btn btn-outline-primary">Kaydol</button>
+
+
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>

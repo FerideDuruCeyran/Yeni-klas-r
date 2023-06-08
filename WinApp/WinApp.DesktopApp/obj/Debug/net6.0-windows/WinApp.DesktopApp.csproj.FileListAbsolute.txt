@@ -1,0 +1,17 @@
+C:\Users\UY1-02\Desktop\Yeni klasör\WinApp\WinApp.DesktopApp\bin\Debug\net6.0-windows\WinApp.DesktopApp.exe
+C:\Users\UY1-02\Desktop\Yeni klasör\WinApp\WinApp.DesktopApp\bin\Debug\net6.0-windows\WinApp.DesktopApp.deps.json
+C:\Users\UY1-02\Desktop\Yeni klasör\WinApp\WinApp.DesktopApp\bin\Debug\net6.0-windows\WinApp.DesktopApp.runtimeconfig.json
+C:\Users\UY1-02\Desktop\Yeni klasör\WinApp\WinApp.DesktopApp\bin\Debug\net6.0-windows\WinApp.DesktopApp.dll
+C:\Users\UY1-02\Desktop\Yeni klasör\WinApp\WinApp.DesktopApp\bin\Debug\net6.0-windows\WinApp.DesktopApp.pdb
+C:\Users\UY1-02\Desktop\Yeni klasör\WinApp\WinApp.DesktopApp\obj\Debug\net6.0-windows\WinApp.DesktopApp.csproj.AssemblyReference.cache
+C:\Users\UY1-02\Desktop\Yeni klasör\WinApp\WinApp.DesktopApp\obj\Debug\net6.0-windows\WinApp.DesktopApp.Form1.resources
+C:\Users\UY1-02\Desktop\Yeni klasör\WinApp\WinApp.DesktopApp\obj\Debug\net6.0-windows\WinApp.DesktopApp.csproj.GenerateResource.cache
+C:\Users\UY1-02\Desktop\Yeni klasör\WinApp\WinApp.DesktopApp\obj\Debug\net6.0-windows\WinApp.DesktopApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\UY1-02\Desktop\Yeni klasör\WinApp\WinApp.DesktopApp\obj\Debug\net6.0-windows\WinApp.DesktopApp.AssemblyInfoInputs.cache
+C:\Users\UY1-02\Desktop\Yeni klasör\WinApp\WinApp.DesktopApp\obj\Debug\net6.0-windows\WinApp.DesktopApp.AssemblyInfo.cs
+C:\Users\UY1-02\Desktop\Yeni klasör\WinApp\WinApp.DesktopApp\obj\Debug\net6.0-windows\WinApp.DesktopApp.csproj.CoreCompileInputs.cache
+C:\Users\UY1-02\Desktop\Yeni klasör\WinApp\WinApp.DesktopApp\obj\Debug\net6.0-windows\WinApp.DesktopApp.dll
+C:\Users\UY1-02\Desktop\Yeni klasör\WinApp\WinApp.DesktopApp\obj\Debug\net6.0-windows\refint\WinApp.DesktopApp.dll
+C:\Users\UY1-02\Desktop\Yeni klasör\WinApp\WinApp.DesktopApp\obj\Debug\net6.0-windows\WinApp.DesktopApp.pdb
+C:\Users\UY1-02\Desktop\Yeni klasör\WinApp\WinApp.DesktopApp\obj\Debug\net6.0-windows\WinApp.DesktopApp.genruntimeconfig.cache
+C:\Users\UY1-02\Desktop\Yeni klasör\WinApp\WinApp.DesktopApp\obj\Debug\net6.0-windows\ref\WinApp.DesktopApp.dll
