@@ -1,0 +1,91 @@
+﻿@model Eticaret.Model.Login;
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Eticaret.Magaza.styles.css" asp-append-version="true" />
+    <style>
+        body{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .container{
+            width: 45%;
+        }
+        @@media(max-width: 750px)
+        {
+            .container {
+                width: 75%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <form asp-controller="Authentication" asp-action="Login" method="post">
+            <div class="row card p-4">
+                @if(ViewBag.Message != null)
+                {
+                    <div class="alert alert-danger">
+                        @ViewBag.Message
+                    </div>
+                }
+                <!-- Head -->
+                <div class="col-md-12 text-center mb-3">
+                    <h1>Logo</h1>
+                </div>
+                <!-- Body -->
+                <div class="col-md-12 mb-3">
+                    <div class="mb-4">
+                      @*<label class="form-label text-start">
+                            <b>E-posta veya Kullanıcı adı</b>
+                        </label>*@
+                        @*<input type="email" class="form-control" value="E-posta veya Kullanıcı adı" />*@
+                        @Html.LabelFor(m => m.Email, new{@class="form-label"})
+                        @Html.TextBoxFor(m => m.Email, new{@class = "form-control", type="email"})
+                    </div>
+                    <div class="mb-4">
+                      @*<label class="form-label">
+                           <b>Şifre</b>
+                        </label>*@
+                        @*<input type="password" class="form-control" value="Şifrenizi giriniz" />*@
+                        @Html.LabelFor(m => m.Password, new{@class="form-label"})
+                        @Html.PasswordFor(m => m.Password, new{@class="form-control"})
+                    </div>
+                    <div class="text-center mb-4">
+                        <button class="btn btn-primary w-50 rounded-3">Giriş</button>
+                    </div>
+                </div>
+                <!-- Footer -->
+                <div class="col-md-12 mb-3">
+                    <div>
+                        <small>Şifreni mi unuttun?</small>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+
+
+
+
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+</body>
+</html>

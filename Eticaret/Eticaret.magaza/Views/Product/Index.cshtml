@@ -1,0 +1,35 @@
+﻿@using Eticaret.Model;
+
+@model List<Product>
+
+@{
+    ViewData["Title"] = "Ürünler";
+}
+
+<a class="btn btn-success" href="@Url.Action("New", "Product")">Yeni Ürün Ekle</a>
+if(Model.Any()){
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Ürün Adı</th>
+            <th>Fiyat</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (Product item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.Name</td>
+                <td>@item.Price</td>
+                <td>
+                    @Html.ActionLink("Düzenle", "Edit", "Product", new { id = item.Id }, new { @class = "btn btn-sm btn-primary" })
+                    @Html.ActionLink("Sil", "Delete", "Product", new { id = item.Id }, new { @class = "btn btn-sm btn-danger" })
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+}else{<center><h3>Ürün Yok</h3></center>}
