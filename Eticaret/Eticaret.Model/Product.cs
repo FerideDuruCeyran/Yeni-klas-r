@@ -15,7 +15,7 @@ namespace Eticaret.Model
 
         [DisplayName("Fiyat")]
         public double Price { get; set; }
-
+        public string ImageName { get; set; } =string.Empty;
         // 0 = silindi, 1 = aktif, 3 = pasif
         public int Status { get; set; } = 1;
     }

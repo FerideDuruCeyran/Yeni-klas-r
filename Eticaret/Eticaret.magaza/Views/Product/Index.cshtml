@@ -7,7 +7,7 @@
 }
 
 <a class="btn btn-success" href="@Url.Action("New", "Product")">Yeni Ürün Ekle</a>
-if(Model.Any()){
+@if(Model.Any()){
 <table class="table">
     <thead>
         <tr>
@@ -20,16 +20,47 @@ if(Model.Any()){
     <tbody>
         @foreach (Product item in Model)
         {
-            <tr>
-                <td>@item.Id</td>
+            <tr id="urun-@item.Id">
+                <td> 
+                    <img src="/img/@item.ImageName"/>
+                </td>
                 <td>@item.Name</td>
                 <td>@item.Price</td>
                 <td>
-                    @Html.ActionLink("Düzenle", "Edit", "Product", new { id = item.Id }, new { @class = "btn btn-sm btn-primary" })
-                    @Html.ActionLink("Sil", "Delete", "Product", new { id = item.Id }, new { @class = "btn btn-sm btn-danger" })
+                    <a href="@Url.Action("Edit","Product",new {id=item.Id})" class="btn btn-sm btn-primary">
+                        <i class="fa-solid fa-pen-to-square"></i>
+                    </a>
+                    <button onclick="urunSil(@item.Id)"
+                        id="sil-@item.Id" 
+                        class="btn btn-sm btn-danger">
+                        <i class="fa-regular fa-trash-can"></i>
+                    </button>
                 </td>
             </tr>
         }
     </tbody>
 </table>
 }else{<center><h3>Ürün Yok</h3></center>}
+@section Scripts{
+    <script>
+       var silmeButonu =document.getElementById("sil-1")
+       var silmeButonu2=$("sil-2")
+       console.log(silmeButonu)
+       console.log(silmeButonu2)
+       function urunSil(id){
+            let silmeIslemi = confirm("Silmek istediğine emin misin?");
+            if(silmeIslemi==true){
+           $.ajax({
+               method:"GET",
+                url: `/product/delete/${id}`,
+                success: function(res){
+                   $(`#urun-${id}`).remove();
+                },
+                error:function(err){
+                    console.log("Hata Oluştu")
+                },
+           });
+       }
+    }
+    </script>
+}
