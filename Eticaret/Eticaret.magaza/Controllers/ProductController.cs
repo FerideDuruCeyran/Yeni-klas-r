@@ -29,8 +29,24 @@ namespace Eticaret.Magaza.Controllers
         }
 
         [HttpPost, Route("edit")]
-        public async Task<IActionResult> Update(Product model)
+        public async Task<IActionResult> Update(Product model, IFormFile image)
         {
+            if (image != null && image.Length > 0)
+            {
+
+                Guid guid = Guid.NewGuid();
+                string gorselAdi = Convert.ToBase64String(guid.ToByteArray());
+                gorselAdi = gorselAdi.Replace("+", "");
+                gorselAdi = gorselAdi.Replace("=", "");
+                gorselAdi += "." + image.FileName.Split('.')[1];
+                
+                string gorselYolu = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "img", gorselAdi);
+                using (FileStream fs = new FileStream(gorselYolu, FileMode.Create))
+                {
+                    await image.CopyToAsync(fs);
+                    model.ImageName = gorselAdi;
+                }
+            }
             await _productService.UpdateAsync(model);
             return RedirectToAction("Index");
         }
@@ -46,9 +62,14 @@ namespace Eticaret.Magaza.Controllers
         {
             if(image != null && image.Length>0) 
             {
-                string gorselYolu = Path.Combine(Directory.GetCurrentDirectory(),"wwwroot","img", image.FileName);
+                Guid guid= Guid.NewGuid();
+                string gorselAdi=Convert.ToBase64String(guid.ToByteArray());
+                gorselAdi = gorselAdi.Replace("+", "");
+                gorselAdi = gorselAdi.Replace("=", "");
+                gorselAdi +="."+image.FileName.Split('.')[1];
+                string gorselYolu = Path.Combine(Directory.GetCurrentDirectory(),"wwwroot","img", gorselAdi);
                 using(FileStream fs=new FileStream(gorselYolu,FileMode.Create)) { await image.CopyToAsync(fs);
-                    model.ImageName=image.FileName;
+                    model.ImageName=gorselAdi;
                 }
             }
             await _productService.CreateAsync(model);

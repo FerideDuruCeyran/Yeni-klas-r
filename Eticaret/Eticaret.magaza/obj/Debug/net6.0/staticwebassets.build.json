@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LIOQqjx8JBhQTXvgPpJ+kkiQsD2l0Z+1I+tzp7pgebk=",
+  "Hash": "BckLYjJw8dB2othnWrN3Tz72fM07T8LjqGrGX5qCbX0=",
   "Source": "Eticaret.magaza",
   "BasePath": "_content/Eticaret.magaza",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\Eticaret\\Eticaret.magaza\\wwwroot\\img\\c07954878.png",
+      "SourceId": "Eticaret.magaza",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\Eticaret\\Eticaret.magaza\\wwwroot\\",
+      "BasePath": "_content/Eticaret.magaza",
+      "RelativePath": "img/c07954878.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\c07954878.png"
     },
     {
       "Identity": "C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\Eticaret\\Eticaret.magaza\\wwwroot\\img\\MicrosoftSurfaceLaptop3-13__1_.jpg",

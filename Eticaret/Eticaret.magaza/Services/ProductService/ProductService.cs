@@ -49,6 +49,7 @@ namespace Eticaret.Magaza.Services
             {
                 product.Name = model.Name;
                 product.Price = model.Price;
+                product.ImageName= model.ImageName; 
 
                 // UPDATE Product SET Name = 'Laptop', Price = 55000 WHERE Id = 5
                 _context.Update(product);
