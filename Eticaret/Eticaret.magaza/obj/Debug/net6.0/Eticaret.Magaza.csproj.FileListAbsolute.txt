@@ -215,3 +215,5 @@ C:\Users\UY1-02\Desktop\Yeni klasör\Eticaret\Eticaret.magaza\obj\Debug\net6.0\s
 C:\Users\UY1-02\Desktop\Yeni klasör\Eticaret\Eticaret.magaza\obj\Debug\net6.0\Eticaret.magaza.csproj.CopyComplete
 C:\Users\UY1-02\Desktop\Yeni klasör\Eticaret\Eticaret.magaza\obj\Debug\net6.0\Eticaret.magaza.genruntimeconfig.cache
 C:\Users\UY1-02\Desktop\Yeni klasör\Eticaret\Eticaret.magaza\obj\Debug\net6.0\ref\Eticaret.magaza.dll
+C:\Users\UY1-02\Desktop\Yeni klasör\Eticaret\Eticaret.magaza\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\UY1-02\Desktop\Yeni klasör\Eticaret\Eticaret.magaza\bin\Debug\net6.0\Newtonsoft.Json.dll

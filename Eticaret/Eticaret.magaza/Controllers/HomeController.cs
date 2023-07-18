@@ -1,9 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace Eticaret.Magaza.Controllers
 {
-    [Route("")]
+    [Authorize ,Route("")]
     public class HomeController : Controller
     {
         [Route("")]

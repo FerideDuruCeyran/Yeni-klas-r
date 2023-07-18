@@ -1,10 +1,11 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Eticaret.Model;
 using Eticaret.Magaza.Services;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Eticaret.Magaza.Controllers
 {
-    [Route("product")]
+    [Authorize,Route("product")]
     public class ProductController : Controller
     {
         private readonly IProductService _productService;

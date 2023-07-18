@@ -1,9 +1,12 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Eticaret.Model;
+using Microsoft.AspNetCore.Authorization;
+using Newtonsoft.Json;
+using System.Text;
 
 namespace Eticaret.Magaza.Controllers
 {
-    [Route("auth")]
+    [AllowAnonymous,Route("auth")]
     public class AuthenticationController : Controller
     {
         [HttpGet, Route("login")]
@@ -13,18 +16,23 @@ namespace Eticaret.Magaza.Controllers
         }
 
         [HttpPost, Route("login")]
-        public IActionResult Login(Login login)
+        public async Task<IActionResult> Login(Login login)
         {
-            if (login.Email == "oguzhankrg4@gmail.com" && login.Password == "123")
+            //(Garbage Collector=Çöp Toplayıcı)
+                using(HttpClient client = new())
             {
-                return RedirectToAction("Index", "Home");
+                StringContent content=new(JsonConvert.SerializeObject(login),
+                 Encoding.UTF8,"application/json");
+                HttpResponseMessage response = await client.PostAsync("https://localhost:7042/security/create-token", content);
+                if (response.IsSuccessStatusCode)
+                {
+                    string responseBody=await response.Content.ReadAsStringAsync();
+                }
             }
-            else
-            {
-                ViewBag.Message = "Kullanıcı adı veya parola hatalı";
                 return View();
-            }
         }
+           
+            
 
         [HttpGet, Route("register")]
         public IActionResult Register()
