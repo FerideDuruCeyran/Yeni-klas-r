@@ -3,12 +3,21 @@ using Eticaret.Model;
 using Microsoft.AspNetCore.Authorization;
 using Newtonsoft.Json;
 using System.Text;
+using Eticaret.magaza.Services;
+using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authentication.Cookies;
 
 namespace Eticaret.Magaza.Controllers
 {
     [AllowAnonymous,Route("auth")]
     public class AuthenticationController : Controller
     {
+        IUserService _userService;
+        public AuthenticationController(IUserService userService)
+        {
+            _userService= userService;
+        }
         [HttpGet, Route("login")]
         public IActionResult Login()
         {
@@ -21,15 +30,30 @@ namespace Eticaret.Magaza.Controllers
             //(Garbage Collector=Çöp Toplayıcı)
                 using(HttpClient client = new())
             {
-                StringContent content=new(JsonConvert.SerializeObject(login),
-                 Encoding.UTF8,"application/json");
-                HttpResponseMessage response = await client.PostAsync("https://localhost:7042/security/create-token", content);
-                if (response.IsSuccessStatusCode)
+                int ıd= await _userService.LoginAsync(login);
+                if (ıd > 0)
                 {
-                    string responseBody=await response.Content.ReadAsStringAsync();
+                    StringContent content = new(JsonConvert.SerializeObject(login),
+                Encoding.UTF8, "application/json");
+                    HttpResponseMessage response = await client.PostAsync("https://localhost:7042/security/create-token", content);
+                    if (response.IsSuccessStatusCode)
+                    {
+                        string responseBody = await response.Content.ReadAsStringAsync();
+                        Response.Cookies.Append("ETICARET", responseBody);
+                        await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal());
+                        return RedirectToAction("Index", "Home");
+                    }
+                    else
+                    {
+                        return View();
+                    }
+                }
+                else
+                {
+                    return View();
                 }
             }
-                return View();
+              
         }
            
             

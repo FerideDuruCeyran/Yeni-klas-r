@@ -9,5 +9,7 @@ namespace Eticaret.Magaza
         public MainDatabaseContext(DbContextOptions<MainDatabaseContext> options) : base(options) { }
 
         public DbSet<Product> Product { get; set; }
+
+        public DbSet<Login> User { get; set; }
     }
 }

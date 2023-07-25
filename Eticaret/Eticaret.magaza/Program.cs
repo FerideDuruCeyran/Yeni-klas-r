@@ -1,3 +1,4 @@
+using Eticaret.magaza.Services;
 using Eticaret.Magaza;
 using Eticaret.Magaza.Services;
 using Eticaret.Model;
@@ -19,6 +20,7 @@ builder.Services.AddDbContext<MainDatabaseContext>(options =>
 });
 
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddAuthentication(options =>
 {
     options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
