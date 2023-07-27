@@ -39,8 +39,13 @@ namespace Eticaret.Magaza.Controllers
                     if (response.IsSuccessStatusCode)
                     {
                         string responseBody = await response.Content.ReadAsStringAsync();
+                        List<Claim> claims = new()
+                        {
+                            new Claim("token",responseBody),
+                        };
+                        ClaimsIdentity identity = new(claims, CookieAuthenticationDefaults.AuthenticationScheme);
                         Response.Cookies.Append("ETICARET", responseBody);
-                        await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal());
+                        await HttpContext.SignInAsync(CookieAuthenticationDefaults.AuthenticationScheme, new ClaimsPrincipal(identity),  new AuthenticationProperties());
                         return RedirectToAction("Index", "Home");
                     }
                     else
@@ -50,10 +55,17 @@ namespace Eticaret.Magaza.Controllers
                 }
                 else
                 {
+                    ViewBag.HataliGiris = true;
                     return View();
                 }
             }
               
+        }
+        [HttpGet, Route("logout")]
+        public async Task<IActionResult> Logout()
+        {
+            await HttpContext.SignOutAsync();
+            return RedirectToAction("Login", "Authentication");
         }
            
             
