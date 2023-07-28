@@ -1,4 +1,12 @@
-﻿<!DOCTYPE html>
+﻿@using Eticaret.Model;
+@using Eticaret.magaza.Helpers;
+@{
+    string token = Context.Request.Cookies["ETICARET"]!;
+    Login user = new JwtToken().Decrypt(token);
+}
+
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -38,6 +46,7 @@
                     </li>
                 </ul>
                 <div class="d-flex">
+                    <span>@user.Email</span>
                     <a href="@Url.Action("Logout","Authentication")
                     " class="btn btn-danger btn-sm">Çıkış Yap</a>
 
