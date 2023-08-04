@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "k+OOEbPe66f1+i8cIWfcomr5Zddji7QuiZ7NOZ9ohMUA2C4zBF4T7xD8Svc8eXtWlMFdERQ5ZRXJpd3g5EwI4A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\Eticaret\\WebApplication.pr\\Eticaret.WebApi\\Eticaret.WebApi\\Eticaret.WebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\UY1-02\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\UY1-02\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\UY1-02\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "C:\\Users\\UY1-02\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "C:\\Users\\UY1-02\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "C:\\Users\\UY1-02\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+  ],
+  "logs": []
+}

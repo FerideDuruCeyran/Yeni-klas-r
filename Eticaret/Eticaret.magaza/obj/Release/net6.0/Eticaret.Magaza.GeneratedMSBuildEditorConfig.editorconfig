@@ -5,36 +5,53 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = Eticaret.Magaza
-build_property.RootNamespace = Eticaret.Magaza
-build_property.ProjectDir = C:\Users\ASUS\source\repos\E_ticaret\Eticaret.Magaza\
+build_property.RootNamespace = Eticaret.magaza
+build_property.RootNamespace = Eticaret.magaza
+build_property.ProjectDir = C:\Users\UY1-02\Desktop\Yeni klasör\Eticaret\Eticaret.magaza\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\ASUS\source\repos\E_ticaret\Eticaret.Magaza
+build_property.MSBuildProjectDirectory = C:\Users\UY1-02\Desktop\Yeni klasör\Eticaret\Eticaret.magaza
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/ASUS/source/repos/E_ticaret/Eticaret.Magaza/Views/Authentication/Login.cshtml]
+[C:/Users/UY1-02/Desktop/Yeni klasör/Eticaret/Eticaret.magaza/Views/Authentication/Login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/E_ticaret/Eticaret.Magaza/Views/Home/Index.cshtml]
+[C:/Users/UY1-02/Desktop/Yeni klasör/Eticaret/Eticaret.magaza/Views/Authentication/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0aGVudGljYXRpb25cUmVnaXN0ZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/UY1-02/Desktop/Yeni klasör/Eticaret/Eticaret.magaza/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/E_ticaret/Eticaret.Magaza/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/UY1-02/Desktop/Yeni klasör/Eticaret/Eticaret.magaza/Views/Product/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/UY1-02/Desktop/Yeni klasör/Eticaret/Eticaret.magaza/Views/Product/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/UY1-02/Desktop/Yeni klasör/Eticaret/Eticaret.magaza/Views/Product/New.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxOZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/UY1-02/Desktop/Yeni klasör/Eticaret/Eticaret.magaza/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/E_ticaret/Eticaret.Magaza/Views/_ViewImports.cshtml]
+[C:/Users/UY1-02/Desktop/Yeni klasör/Eticaret/Eticaret.magaza/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/E_ticaret/Eticaret.Magaza/Views/_ViewStart.cshtml]
+[C:/Users/UY1-02/Desktop/Yeni klasör/Eticaret/Eticaret.magaza/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/ASUS/source/repos/E_ticaret/Eticaret.Magaza/Views/Shared/_Layout.cshtml]
+[C:/Users/UY1-02/Desktop/Yeni klasör/Eticaret/Eticaret.magaza/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = b-5zhj59cwrn
+build_metadata.AdditionalFiles.CssScope = b-iuigano2w4

@@ -5,7 +5,11 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eticaret.magaza", "Eticaret.magaza\Eticaret.magaza.csproj", "{45737F62-8E9A-4839-B245-703708095252}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eticaret.Model", "Eticaret.Model\Eticaret.Model.csproj", "{9E44E0C7-F81A-4704-A201-6E394E3FAE27}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eticaret.Model", "Eticaret.Model\Eticaret.Model.csproj", "{9E44E0C7-F81A-4704-A201-6E394E3FAE27}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eticaret.WebApi", "Eticaret.WebApi\Eticaret.WebApi.csproj", "{07AF210B-B16E-4F4F-9ABC-42F1D1497D2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eticaret.Web", "Eticaret.Web\Eticaret.Web.csproj", "{0EBED3B9-AFB8-45A6-9228-E500052A4C9E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +25,14 @@ Global
 		{9E44E0C7-F81A-4704-A201-6E394E3FAE27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E44E0C7-F81A-4704-A201-6E394E3FAE27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E44E0C7-F81A-4704-A201-6E394E3FAE27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07AF210B-B16E-4F4F-9ABC-42F1D1497D2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07AF210B-B16E-4F4F-9ABC-42F1D1497D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07AF210B-B16E-4F4F-9ABC-42F1D1497D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07AF210B-B16E-4F4F-9ABC-42F1D1497D2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EBED3B9-AFB8-45A6-9228-E500052A4C9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EBED3B9-AFB8-45A6-9228-E500052A4C9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EBED3B9-AFB8-45A6-9228-E500052A4C9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EBED3B9-AFB8-45A6-9228-E500052A4C9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

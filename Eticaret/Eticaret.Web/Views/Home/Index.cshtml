@@ -1,0 +1,14 @@
+﻿@using Eticaret.Model;
+@model List<Product>
+ 
+    @{
+
+    ViewData["Title"] = "Anasayfa";
+}
+@foreach (Product urun in Model)
+{
+    <h1>@urun.Name</h1>
+    <h4>@urun.Price</h4>
+    <hr style="background-color: black;" />
+}
+
