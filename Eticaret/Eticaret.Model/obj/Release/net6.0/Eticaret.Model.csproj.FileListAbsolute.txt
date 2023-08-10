@@ -1,12 +1,12 @@
-C:\Users\UY1-02\Desktop\Yeni klasör\Eticaret\Eticaret.Model\bin\Release\net6.0\Eticaret.Model.deps.json
-C:\Users\UY1-02\Desktop\Yeni klasör\Eticaret\Eticaret.Model\bin\Release\net6.0\Eticaret.Model.dll
-C:\Users\UY1-02\Desktop\Yeni klasör\Eticaret\Eticaret.Model\bin\Release\net6.0\Eticaret.Model.pdb
-C:\Users\UY1-02\Desktop\Yeni klasör\Eticaret\Eticaret.Model\obj\Release\net6.0\Eticaret.Model.csproj.AssemblyReference.cache
-C:\Users\UY1-02\Desktop\Yeni klasör\Eticaret\Eticaret.Model\obj\Release\net6.0\Eticaret.Model.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\UY1-02\Desktop\Yeni klasör\Eticaret\Eticaret.Model\obj\Release\net6.0\Eticaret.Model.AssemblyInfoInputs.cache
-C:\Users\UY1-02\Desktop\Yeni klasör\Eticaret\Eticaret.Model\obj\Release\net6.0\Eticaret.Model.AssemblyInfo.cs
-C:\Users\UY1-02\Desktop\Yeni klasör\Eticaret\Eticaret.Model\obj\Release\net6.0\Eticaret.Model.csproj.CoreCompileInputs.cache
-C:\Users\UY1-02\Desktop\Yeni klasör\Eticaret\Eticaret.Model\obj\Release\net6.0\Eticaret.Model.dll
-C:\Users\UY1-02\Desktop\Yeni klasör\Eticaret\Eticaret.Model\obj\Release\net6.0\refint\Eticaret.Model.dll
-C:\Users\UY1-02\Desktop\Yeni klasör\Eticaret\Eticaret.Model\obj\Release\net6.0\Eticaret.Model.pdb
-C:\Users\UY1-02\Desktop\Yeni klasör\Eticaret\Eticaret.Model\obj\Release\net6.0\ref\Eticaret.Model.dll
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.Model\bin\Release\net6.0\Eticaret.Model.deps.json
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.Model\bin\Release\net6.0\Eticaret.Model.dll
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.Model\bin\Release\net6.0\Eticaret.Model.pdb
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.Model\obj\Release\net6.0\Eticaret.Model.csproj.AssemblyReference.cache
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.Model\obj\Release\net6.0\Eticaret.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.Model\obj\Release\net6.0\Eticaret.Model.AssemblyInfoInputs.cache
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.Model\obj\Release\net6.0\Eticaret.Model.AssemblyInfo.cs
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.Model\obj\Release\net6.0\Eticaret.Model.csproj.CoreCompileInputs.cache
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.Model\obj\Release\net6.0\Eticaret.Model.dll
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.Model\obj\Release\net6.0\refint\Eticaret.Model.dll
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.Model\obj\Release\net6.0\Eticaret.Model.pdb
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.Model\obj\Release\net6.0\ref\Eticaret.Model.dll

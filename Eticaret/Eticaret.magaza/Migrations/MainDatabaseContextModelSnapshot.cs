@@ -7,7 +7,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace Eticaret.magaza.Migrations
+namespace Eticaret.Magaza.Migrations
 {
     [DbContext(typeof(MainDatabaseContext))]
     partial class MainDatabaseContextModelSnapshot : ModelSnapshot

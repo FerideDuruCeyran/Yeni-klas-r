@@ -1,10 +1,10 @@
-﻿@using Eticaret.Model;
-@using Eticaret.magaza.Helpers;
+﻿@using Eticaret.Magaza.Helpers;
+@using Eticaret.Model;
+
 @{
     string token = Context.Request.Cookies["ETICARET"]!;
     Login user = new JwtToken().Decrypt(token);
 }
-
 
 <!DOCTYPE html>
 <html lang="en">
@@ -13,9 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>@ViewData["Title"] - Eticaret.Magaza</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Eticaret.Magaza.styles.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/lib/fontawsome/css/all.min.css"/>
+    <link rel="stylesheet" href="~/lib/fontawesome/css/all.min.css" />
     @await RenderSectionAsync("Styles", required: false)
 </head>
 <body>
@@ -47,9 +45,8 @@
                 </ul>
                 <div class="d-flex">
                     <span>@user.Email</span>
-                    <a href="@Url.Action("Logout","Authentication")
-                    " class="btn btn-danger btn-sm">Çıkış Yap</a>
-
+                    <a href="@Url.Action("Logout", "Authentication")"
+                       class="btn btn-sm btn-danger">Çıkış Yap</a>
                 </div>
             </div>
         </div>
@@ -59,8 +56,7 @@
     </div>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    <script src="/lib/fontawsome/js/all/min/js"></script>
-    @await RenderSectionAsync("Scripts",required:false)
+    <script src="~/lib/fontawesome/js/all.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
 </body>
 </html>

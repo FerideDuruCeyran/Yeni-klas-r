@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace Eticaret.Magaza.Controllers
 {
-    [Authorize,Route("product")]
+    [Authorize, Route("product")]
     public class ProductController : Controller
     {
         private readonly IProductService _productService;
@@ -34,50 +34,60 @@ namespace Eticaret.Magaza.Controllers
         {
             if (image != null && image.Length > 0)
             {
-
                 Guid guid = Guid.NewGuid();
                 string gorselAdi = Convert.ToBase64String(guid.ToByteArray());
                 gorselAdi = gorselAdi.Replace("+", "");
                 gorselAdi = gorselAdi.Replace("=", "");
+                gorselAdi = gorselAdi.Replace("\\", "");
                 gorselAdi += "." + image.FileName.Split('.')[1];
-                
+
                 string gorselYolu = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "img", gorselAdi);
+
                 using (FileStream fs = new FileStream(gorselYolu, FileMode.Create))
                 {
                     await image.CopyToAsync(fs);
                     model.ImageName = gorselAdi;
                 }
             }
+
             await _productService.UpdateAsync(model);
             return RedirectToAction("Index");
         }
-        
+
         [HttpGet, Route("new")]
-        public IActionResult New()
+        public async Task<IActionResult> New()
         {
+            Kur? kur = await new Api.Kur().KurCek();
+            ViewBag.Kur = kur.Data.TRY.Value;
             return View();
         }
 
         [HttpPost, Route("new")]
         public async Task<IActionResult> New(Product model, IFormFile image)
         {
-            if(image != null && image.Length>0) 
+            if (image != null && image.Length > 0)
             {
-                Guid guid= Guid.NewGuid();
-                string gorselAdi=Convert.ToBase64String(guid.ToByteArray());
+                Guid guid = Guid.NewGuid();
+                string gorselAdi = Convert.ToBase64String(guid.ToByteArray());
                 gorselAdi = gorselAdi.Replace("+", "");
                 gorselAdi = gorselAdi.Replace("=", "");
-                gorselAdi +="."+image.FileName.Split('.')[1];
-                string gorselYolu = Path.Combine(Directory.GetCurrentDirectory(),"wwwroot","img", gorselAdi);
-                using(FileStream fs=new FileStream(gorselYolu,FileMode.Create)) { await image.CopyToAsync(fs);
-                    model.ImageName=gorselAdi;
+                gorselAdi += "." + image.FileName.Split('.')[1];
+
+                string gorselYolu = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "img", gorselAdi);
+
+                using (FileStream fs = new FileStream(gorselYolu, FileMode.Create))
+                {
+                    await image.CopyToAsync(fs);
+                    model.ImageName = gorselAdi;
                 }
             }
+
             await _productService.CreateAsync(model);
             return RedirectToAction("Index");
         }
-        [HttpGet ,Route("delete/{id}")]
-        public async Task<IActionResult> Delete(int id) 
+
+        [HttpGet, Route("delete/{id}")]
+        public async Task<IActionResult> Delete(int id)
         {
             await _productService.DeleteAsync(id);
             return Json(true);

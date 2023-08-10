@@ -22,19 +22,12 @@ namespace Eticaret.Magaza.Services
         public async Task<List<Product>?> GetAllAsync()
         {
             // SELECT * FROM Product
-            List<Product>? products = await _context.Product.Where(m=>m.Status !=0).ToListAsync();
+            List<Product>? products = await _context.Product.Where(m => m.Status != 0).ToListAsync();
             return products;
         }
 
         public async Task<int> CreateAsync(Product model)
         {
-            /*
-             Id: 0
-             Name: 'Laptop'
-             Price: 50990.90
-             */
-
-            // INSERT INTO Product VALUES(..., ..., ...)
             await _context.Product.AddAsync(model);
             await _context.SaveChangesAsync();
             return model.Id;
@@ -43,13 +36,13 @@ namespace Eticaret.Magaza.Services
         public async Task<bool> UpdateAsync(Product model)
         {
             // SELECT * FROM Product WHER Id = 5
-            Product? product = await _context.Product.SingleOrDefaultAsync(m=>m.Id == model.Id);
+            Product? product = await _context.Product.SingleOrDefaultAsync(m => m.Id == model.Id);
 
-            if(product != null)
+            if (product != null)
             {
                 product.Name = model.Name;
                 product.Price = model.Price;
-                product.ImageName= model.ImageName; 
+                product.ImageName = model.ImageName;
 
                 // UPDATE Product SET Name = 'Laptop', Price = 55000 WHERE Id = 5
                 _context.Update(product);

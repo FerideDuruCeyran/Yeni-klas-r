@@ -1,9 +1,8 @@
-﻿using Eticaret.Magaza.Services;
-using Eticaret.Model;
+﻿using Eticaret.Model;
 
-namespace Eticaret.magaza.Services
+namespace Eticaret.Magaza.Services
 {
-    public interface IUserService: IBaseService<Login>
+    public interface IUserService : IBaseService<Login>
     {
         Task<int> LoginAsync(Login model);
     }

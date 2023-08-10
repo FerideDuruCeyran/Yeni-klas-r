@@ -5,7 +5,13 @@ VisualStudioVersion = 17.3.32922.545
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eticaret.Magaza", "Eticaret.Magaza\Eticaret.Magaza.csproj", "{463196F1-5BEE-4AEB-9D93-4B353186C0FA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eticaret.Model", "Eticaret.Model\Eticaret.Model.csproj", "{F617FC1B-802F-4A8B-873F-DE6AEAF616BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eticaret.Model", "Eticaret.Model\Eticaret.Model.csproj", "{F617FC1B-802F-4A8B-873F-DE6AEAF616BA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eticaret.Api", "Eticaret.Api\Eticaret.Api.csproj", "{091CB41B-07E0-443B-978D-6C47194296B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Eticaret.WebApi", "Eticaret.WebApi\Eticaret.WebApi.csproj", "{880F5F86-50F2-44FC-9ED0-0609A17D6828}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eticaret.Web", "Eticaret.Web\Eticaret.Web.csproj", "{04C09E11-7CF0-4518-8327-EE0742E3BE50}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{F617FC1B-802F-4A8B-873F-DE6AEAF616BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F617FC1B-802F-4A8B-873F-DE6AEAF616BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F617FC1B-802F-4A8B-873F-DE6AEAF616BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{091CB41B-07E0-443B-978D-6C47194296B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{091CB41B-07E0-443B-978D-6C47194296B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{091CB41B-07E0-443B-978D-6C47194296B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{091CB41B-07E0-443B-978D-6C47194296B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{880F5F86-50F2-44FC-9ED0-0609A17D6828}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{880F5F86-50F2-44FC-9ED0-0609A17D6828}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{880F5F86-50F2-44FC-9ED0-0609A17D6828}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{880F5F86-50F2-44FC-9ED0-0609A17D6828}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04C09E11-7CF0-4518-8327-EE0742E3BE50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04C09E11-7CF0-4518-8327-EE0742E3BE50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04C09E11-7CF0-4518-8327-EE0742E3BE50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04C09E11-7CF0-4518-8327-EE0742E3BE50}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

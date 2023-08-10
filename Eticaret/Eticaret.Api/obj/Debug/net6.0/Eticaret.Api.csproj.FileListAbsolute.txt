@@ -1,0 +1,15 @@
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.Api\bin\Debug\net6.0\Eticaret.Api.deps.json
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.Api\bin\Debug\net6.0\Eticaret.Api.dll
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.Api\bin\Debug\net6.0\Eticaret.Api.pdb
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.Api\bin\Debug\net6.0\Eticaret.Model.dll
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.Api\bin\Debug\net6.0\Eticaret.Model.pdb
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.Api\obj\Debug\net6.0\Eticaret.Api.csproj.AssemblyReference.cache
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.Api\obj\Debug\net6.0\Eticaret.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.Api\obj\Debug\net6.0\Eticaret.Api.AssemblyInfoInputs.cache
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.Api\obj\Debug\net6.0\Eticaret.Api.AssemblyInfo.cs
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.Api\obj\Debug\net6.0\Eticaret.Api.csproj.CoreCompileInputs.cache
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.Api\obj\Debug\net6.0\Eticaret.Api.csproj.CopyComplete
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.Api\obj\Debug\net6.0\Eticaret.Api.dll
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.Api\obj\Debug\net6.0\refint\Eticaret.Api.dll
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.Api\obj\Debug\net6.0\Eticaret.Api.pdb
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.Api\obj\Debug\net6.0\ref\Eticaret.Api.dll

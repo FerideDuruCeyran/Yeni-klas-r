@@ -28,13 +28,6 @@ namespace Eticaret.Web.Services.ProductService
 
         public async Task<int> CreateAsync(Product model)
         {
-            /*
-             Id: 0
-             Name: 'Laptop'
-             Price: 50990.90
-             */
-
-            // INSERT INTO Product VALUES(..., ..., ...)
             await _context.Product.AddAsync(model);
             await _context.SaveChangesAsync();
             return model.Id;

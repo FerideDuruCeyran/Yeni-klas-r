@@ -33,6 +33,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\Eticaret\\Eticaret.Api\\Eticaret.Api.csproj": {
+                "projectPath": "C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\Eticaret\\Eticaret.Api\\Eticaret.Api.csproj"
+              },
               "C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\Eticaret\\Eticaret.Model\\Eticaret.Model.csproj": {
                 "projectPath": "C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\Eticaret\\Eticaret.Model\\Eticaret.Model.csproj"
               }

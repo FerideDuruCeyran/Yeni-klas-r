@@ -18,11 +18,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Eticaret.Api\Eticaret.Api.csproj" />
     <ProjectReference Include="..\Eticaret.Model\Eticaret.Model.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="wwwroot\img\" />
   </ItemGroup>
 
 </Project>

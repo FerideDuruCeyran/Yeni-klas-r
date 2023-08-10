@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "Uoju3xZWQwvY7cj1/0b6GVFO0cZTURaoyMOWq5lOXXdYWpS/7aZZcQfXsdqRL7luGQoOTtNCsm0NpNMPPyAMCA==",
-  "success": true,
+  "dgSpecHash": "KMd8nOPCBV2t1Jdn+783RzB3j+0uDCtg00oZ6AI+j8QzBOE0e2+ymDG+LKUlg9jQcKQEWHwxYKlrKpwog3q+jw==",
+  "success": false,
   "projectFilePath": "C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\Eticaret\\Eticaret.magaza\\Eticaret.magaza.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\UY1-02\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
@@ -80,5 +80,15 @@
     "C:\\Users\\UY1-02\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\UY1-02\\.nuget\\packages\\system.windows.extensions\\5.0.0\\system.windows.extensions.5.0.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\Eticaret\\Eticaret.Api\\Eticaret.Api.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\Eticaret\\Eticaret.Api\\Eticaret.Api.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

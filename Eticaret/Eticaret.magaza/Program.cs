@@ -1,11 +1,7 @@
-using Eticaret.magaza.Services;
 using Eticaret.Magaza;
 using Eticaret.Magaza.Services;
 using Eticaret.Model;
 using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
-using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Builder;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
@@ -22,12 +18,11 @@ builder.Services.AddDbContext<MainDatabaseContext>(options =>
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IUserService, UserService>();
 
-builder.Services.AddAuthentication(options => 
+builder.Services.AddAuthentication(options =>
 {
-
     options.DefaultAuthenticateScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-    options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
     options.DefaultSignInScheme = CookieAuthenticationDefaults.AuthenticationScheme;
+    options.DefaultChallengeScheme = CookieAuthenticationDefaults.AuthenticationScheme;
 }).AddCookie(CookieAuthenticationDefaults.AuthenticationScheme, options =>
 {
     options.LoginPath = "/auth/login";
@@ -48,14 +43,12 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 app.UseStaticFiles();
 
 app.UseRouting();
 
-app.UseAuthentication();
 app.UseCookiePolicy();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(
@@ -65,29 +58,31 @@ app.MapControllerRoute(
 app.MapPost("/security/create-token", (Login login) =>
 {
     string issuer = builder.Configuration["Jwt:Issuer"];
-    string audience = builder.Configuration["Jwt:Audience"]; 
+    string audience = builder.Configuration["Jwt:Audience"];
     byte[] key = Encoding.ASCII.GetBytes(
         builder.Configuration["Jwt:Key"]);
+
     SecurityTokenDescriptor token = new()
     {
         Subject = new ClaimsIdentity(new[]
         {
-           new Claim("Id",login.Id.ToString()),
-           new Claim("Email",login.Email),
-         }),
-        Expires= DateTime.UtcNow.AddDays(7),
+            new Claim("Id", Guid.NewGuid().ToString()),
+            new Claim("UserId", login.Id.ToString()),
+            new Claim("Email", login.Email),
+        }),
+        Expires = DateTime.UtcNow.AddDays(7),
         Issuer = issuer,
-        Audience= audience,
-        SigningCredentials= new SigningCredentials(
+        Audience = audience,
+        SigningCredentials = new SigningCredentials(
             new SymmetricSecurityKey(key),
             SecurityAlgorithms.HmacSha256Signature),
-
     };
+
     JwtSecurityTokenHandler handler = new();
-    SecurityToken securityToken=handler.CreateToken(token);
-    string JwtToken =handler.WriteToken(securityToken);
+    SecurityToken securityToken = handler.CreateToken(token);
+    string jwtToken = handler.WriteToken(securityToken);
 
-    return Results.Ok(JwtToken);
-
+    return Results.Ok(jwtToken);
 });
+
 app.Run();

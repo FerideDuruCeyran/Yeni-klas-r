@@ -1,14 +1,35 @@
 ﻿@using Eticaret.Model;
 @model List<Product>
- 
-    @{
 
+@{
     ViewData["Title"] = "Anasayfa";
 }
-@foreach (Product urun in Model)
-{
-    <h1>@urun.Name</h1>
-    <h4>@urun.Price</h4>
-    <hr style="background-color: black;" />
-}
 
+<div class="container">
+    <div class="row">
+        @foreach (Product urun in Model)
+        {
+            <div class="col-md-3 mx-3 my-3">
+                <div class="card">
+                    <div class="header">
+                        @if (string.IsNullOrEmpty(urun.ImageName))
+                        {
+                            <img src="https://localhost:7042/img/360.jpg" class="img-fluid w-100" style="height: 11.5rem;" />
+                        }
+                        else
+                        {
+                            <img src="https://localhost:7042/img/@urun.ImageName" class="img-fluid w-100" style="height: 11.5rem;" />
+                        }
+                    </div>
+                    <div class="info">
+                        <p class="title">@urun.Name</p>
+                    </div>
+                    <div class="footer">
+                        <p class="tag">@urun.Price ₺</p>
+                        <button type="button" class="action">Sepete Ekle</button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

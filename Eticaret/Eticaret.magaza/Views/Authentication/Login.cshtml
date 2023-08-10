@@ -13,18 +13,18 @@
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/Eticaret.Magaza.styles.css" asp-append-version="true" />
     <style>
-        body{
+        body {
             height: 100vh;
             display: flex;
             justify-content: center;
             align-items: center;
         }
 
-        .container{
+        .container {
             width: 45%;
         }
-        @@media(max-width: 750px)
-        {
+
+        @@media(max-width: 750px) {
             .container {
                 width: 75%;
             }
@@ -37,11 +37,14 @@
 
         <form asp-controller="Authentication" asp-action="Login" method="post">
             <div class="row card p-4">
-                @if(ViewBag.HataliGiris != null)
+                @if (ViewBag.HataliGiris != null)
                 {
-                    <div class="alert alert-warning"> Kullanıcı adı veya parola hatalı</div>
+                    <div class="alert alert-warning">
+                        Kullanıcı adı ve / veya parola hatalı
+                    </div>
                 }
-                @if(ViewBag.Message != null)
+
+                @if (ViewBag.Message != null)
                 {
                     <div class="alert alert-danger">
                         @ViewBag.Message
@@ -54,16 +57,16 @@
                 <!-- Body -->
                 <div class="col-md-12 mb-3">
                     <div class="mb-4">
-                      @*<label class="form-label text-start">
-                            <b>E-posta veya Kullanıcı adı</b>
+                        @*<label class="form-label text-start">
+                        <b>E-posta veya Kullanıcı adı</b>
                         </label>*@
                         @*<input type="email" class="form-control" value="E-posta veya Kullanıcı adı" />*@
                         @Html.LabelFor(m => m.Email, new{@class="form-label"})
                         @Html.TextBoxFor(m => m.Email, new{@class = "form-control", type="email"})
                     </div>
                     <div class="mb-4">
-                      @*<label class="form-label">
-                           <b>Şifre</b>
+                        @*<label class="form-label">
+                        <b>Şifre</b>
                         </label>*@
                         @*<input type="password" class="form-control" value="Şifrenizi giriniz" />*@
                         @Html.LabelFor(m => m.Password, new{@class="form-label"})

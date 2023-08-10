@@ -6,8 +6,9 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v6.0": {
-      "Eticaret.magaza/1.0.0": {
+      "Eticaret.Magaza/1.0.0": {
         "dependencies": {
+          "Eticaret.Api": "1.0.0",
           "Eticaret.Model": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "6.0.20",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.19",
@@ -16,7 +17,7 @@
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
-          "Eticaret.magaza.dll": {}
+          "Eticaret.Magaza.dll": {}
         }
       },
       "Azure.Core/1.24.0": {
@@ -778,6 +779,14 @@
           }
         }
       },
+      "Eticaret.Api/1.0.0": {
+        "dependencies": {
+          "Eticaret.Model": "1.0.0"
+        },
+        "runtime": {
+          "Eticaret.Api.dll": {}
+        }
+      },
       "Eticaret.Model/1.0.0": {
         "runtime": {
           "Eticaret.Model.dll": {}
@@ -786,7 +795,7 @@
     }
   },
   "libraries": {
-    "Eticaret.magaza/1.0.0": {
+    "Eticaret.Magaza/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1315,6 +1324,11 @@
       "sha512": "sha512-c1ho9WU9ZxMZawML+ssPKZfdnrg/OjR3pe0m9v8230z3acqphwvPJqzAkH54xRYm5ntZHGG1EPP3sux9H3qSPg==",
       "path": "system.windows.extensions/5.0.0",
       "hashPath": "system.windows.extensions.5.0.0.nupkg.sha512"
+    },
+    "Eticaret.Api/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "Eticaret.Model/1.0.0": {
       "type": "project",

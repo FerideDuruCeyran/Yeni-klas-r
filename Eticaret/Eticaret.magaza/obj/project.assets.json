@@ -3769,6 +3769,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\Eticaret\\Eticaret.Api\\Eticaret.Api.csproj",
       "Eticaret.Model >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.20",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.19",
@@ -3810,6 +3811,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\Eticaret\\Eticaret.Api\\Eticaret.Api.csproj": {
+              "projectPath": "C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\Eticaret\\Eticaret.Api\\Eticaret.Api.csproj"
+            },
             "C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\Eticaret\\Eticaret.Model\\Eticaret.Model.csproj": {
               "projectPath": "C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\Eticaret\\Eticaret.Model\\Eticaret.Model.csproj"
             }
@@ -3871,5 +3875,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for 'C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\Eticaret\\Eticaret.Api\\Eticaret.Api.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\Eticaret\\Eticaret.Api\\Eticaret.Api.csproj",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

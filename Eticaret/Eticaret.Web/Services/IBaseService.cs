@@ -7,6 +7,5 @@
         Task<int> CreateAsync(T model);
         Task<bool> DeleteAsync(int id);
         Task<bool> UpdateAsync(T model);
-
     }
 }

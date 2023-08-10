@@ -1,15 +1,15 @@
 ﻿using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
 
 namespace Eticaret.Magaza.Controllers
 {
-    [Authorize ,Route("")]
+    [Authorize, Route("")]
     public class HomeController : Controller
     {
         [Route("")]
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
+            Model.Kur? kur = await new Api.Kur().KurCek();
             return View();
         }
     }

@@ -4,8 +4,8 @@ https://go.microsoft.com/fwlink/?LinkID=208121.
 -->
 <Project>
   <PropertyGroup>
-    <_PublishTargetUrl>C:\Users\UY1-02\Desktop\Yeni klasör\Eticaret\Eticaret.WebApi\bin\Release\net6.0\publish\</_PublishTargetUrl>
-    <History>True|2023-08-03T18:15:08.7851559Z;True|2023-08-03T20:59:08.8470694+03:00;</History>
+    <_PublishTargetUrl>C:\Users\Onur\Basaran\E_ticaret\Eticaret.WebApi\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2023-08-03T18:15:02.3812749Z;True|2023-08-03T21:06:19.9931138+03:00;True|2023-08-03T20:59:07.4188764+03:00;</History>
     <LastFailureDetails />
   </PropertyGroup>
 </Project>

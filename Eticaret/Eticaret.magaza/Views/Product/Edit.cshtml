@@ -20,33 +20,34 @@
                 @Html.LabelFor(m=>m.Price, new { @class = "form-label" })
                 @Html.TextBoxFor(m=>m.Price, new { @class = "form-control" })
             </div>
+
             <div class="col-md-4 mb-3">
                 <label class="form-label">Ürün Görseli</label>
                 <br />
-                <input id="gorsel-degiştir" type="file" name="image"  onchange="gorselDegiştir()"/>
-                <div class="mb-3">
-                <img name="image" id="urun-gorseli" src="/img/@Model.ImageName" class="img-fluid" width="100" />
-                </div>
+                <input id="gorsel-degistir" name="image" type="file" onchange="gorselDegistir()" />
             </div>
+
+            <div class="mb-3">
+                <img name="image" id="urun-gorseli" src="/img/@Model.ImageName" class="img-fluid" width="75" />
+            </div>
+
             <div>
                 <button class="btn btn-success">Kaydet</button>
             </div>
         </form>
     </div>
 </div>
+
 @section Scripts{
     <script>
-        function gorselDegiştir(){
-            let gorselInput = document.getElementById("gorsel-degiştir");
+        function gorselDegistir() {
+            let gorselInput = document.getElementById("gorsel-degistir");
             let gorsel = $("#urun-gorseli");
             let [file] = gorselInput.files;
-            gorsel.attr("src",URL.createObjectURL(file));
+            gorsel.attr("src", URL.createObjectURL(file));
         }
     </script>
-        }
-      
-       
-
+}
 
 @section Styles{
     <style>

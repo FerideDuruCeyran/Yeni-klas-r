@@ -1,0 +1,91 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Eticaret.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Eticaret.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Eticaret.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Eticaret.Model/1.0.0": {
+      "type": "project",
+      "path": "../Eticaret.Model/Eticaret.Model.csproj",
+      "msbuildProject": "../Eticaret.Model/Eticaret.Model.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Eticaret.Model >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Onur\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Onur\\Basaran\\E_ticaret\\Eticaret.Api\\Eticaret.Api.csproj",
+      "projectName": "Eticaret.Api",
+      "projectPath": "C:\\Users\\Onur\\Basaran\\E_ticaret\\Eticaret.Api\\Eticaret.Api.csproj",
+      "packagesPath": "C:\\Users\\Onur\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Onur\\Basaran\\E_ticaret\\Eticaret.Api\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Onur\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\Onur\\Basaran\\E_ticaret\\Eticaret.Model\\Eticaret.Model.csproj": {
+              "projectPath": "C:\\Users\\Onur\\Basaran\\E_ticaret\\Eticaret.Model\\Eticaret.Model.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

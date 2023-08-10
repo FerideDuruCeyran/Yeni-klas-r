@@ -1,0 +1,13 @@
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.WebApi\obj\Release\net6.0\PubTmp\Out\Eticaret.WebApi.exe
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.WebApi\obj\Release\net6.0\PubTmp\Out\appsettings.Development.json
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.WebApi\obj\Release\net6.0\PubTmp\Out\appsettings.json
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.WebApi\obj\Release\net6.0\PubTmp\Out\Eticaret.WebApi.dll
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.WebApi\obj\Release\net6.0\PubTmp\Out\Eticaret.WebApi.deps.json
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.WebApi\obj\Release\net6.0\PubTmp\Out\Eticaret.WebApi.runtimeconfig.json
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.WebApi\obj\Release\net6.0\PubTmp\Out\Eticaret.WebApi.pdb
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.WebApi\obj\Release\net6.0\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.WebApi\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.WebApi\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.WebApi\obj\Release\net6.0\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.WebApi\obj\Release\net6.0\PubTmp\Out\Eticaret.Model.dll
+C:\Users\Onur\Basaran\E_ticaret\Eticaret.WebApi\obj\Release\net6.0\PubTmp\Out\Eticaret.Model.pdb
