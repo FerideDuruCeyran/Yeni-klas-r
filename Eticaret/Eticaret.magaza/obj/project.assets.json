@@ -3769,7 +3769,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\Eticaret\\Eticaret.Api\\Eticaret.Api.csproj",
+      "C:\\Users\\user\\OneDrive\\Masaüstü\\yazılım\\Yeni-klas-r\\Eticaret\\Eticaret.Api\\Eticaret.Api.csproj",
       "Eticaret.Model >= 1.0.0",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 6.0.20",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 6.0.19",
@@ -3779,24 +3779,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\UY1-02\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\user\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\Eticaret\\Eticaret.magaza\\Eticaret.magaza.csproj",
+      "projectUniqueName": "C:\\Users\\user\\OneDrive\\Masaüstü\\yazılım\\Yeni-klas-r\\Eticaret\\Eticaret.magaza\\Eticaret.magaza.csproj",
       "projectName": "Eticaret.magaza",
-      "projectPath": "C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\Eticaret\\Eticaret.magaza\\Eticaret.magaza.csproj",
-      "packagesPath": "C:\\Users\\UY1-02\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\Eticaret\\Eticaret.magaza\\obj\\",
+      "projectPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\yazılım\\Yeni-klas-r\\Eticaret\\Eticaret.magaza\\Eticaret.magaza.csproj",
+      "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\yazılım\\Yeni-klas-r\\Eticaret\\Eticaret.magaza\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\UY1-02\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3804,18 +3799,17 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\Eticaret\\Eticaret.Api\\Eticaret.Api.csproj": {
-              "projectPath": "C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\Eticaret\\Eticaret.Api\\Eticaret.Api.csproj"
+            "C:\\Users\\user\\OneDrive\\Masaüstü\\yazılım\\Yeni-klas-r\\Eticaret\\Eticaret.Api\\Eticaret.Api.csproj": {
+              "projectPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\yazılım\\Yeni-klas-r\\Eticaret\\Eticaret.Api\\Eticaret.Api.csproj"
             },
-            "C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\Eticaret\\Eticaret.Model\\Eticaret.Model.csproj": {
-              "projectPath": "C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\Eticaret\\Eticaret.Model\\Eticaret.Model.csproj"
+            "C:\\Users\\user\\OneDrive\\Masaüstü\\yazılım\\Yeni-klas-r\\Eticaret\\Eticaret.Model\\Eticaret.Model.csproj": {
+              "projectPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\yazılım\\Yeni-klas-r\\Eticaret\\Eticaret.Model\\Eticaret.Model.csproj"
             }
           }
         }
@@ -3872,7 +3866,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   },
@@ -3880,8 +3874,8 @@
     {
       "code": "NU1105",
       "level": "Error",
-      "message": "Unable to find project information for 'C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\Eticaret\\Eticaret.Api\\Eticaret.Api.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "C:\\Users\\UY1-02\\Desktop\\Yeni klasör\\Eticaret\\Eticaret.Api\\Eticaret.Api.csproj",
+      "message": "Unable to find project information for 'C:\\Users\\user\\OneDrive\\Masaüstü\\yazılım\\Yeni-klas-r\\Eticaret\\Eticaret.Api\\Eticaret.Api.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\user\\OneDrive\\Masaüstü\\yazılım\\Yeni-klas-r\\Eticaret\\Eticaret.Api\\Eticaret.Api.csproj",
       "targetGraphs": [
         "net6.0"
       ]
