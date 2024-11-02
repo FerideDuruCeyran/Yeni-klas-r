@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "U49nNNS6iiilK3+60jFZ2W4Qd8LVx9m1l3UxouYGlvdXjnqkz/+bhYTMNQflaIy8cG3zNKdTU+htxtzu53wBdg==",
+  "dgSpecHash": "1sWHDwN4hTw=",
   "success": false,
-  "projectFilePath": "C:\\Users\\user\\OneDrive\\Masaüstü\\yazılım\\Yeni-klas-r\\Eticaret\\Eticaret.magaza\\Eticaret.magaza.csproj",
+  "projectFilePath": "C:\\Users\\user\\OneDrive\\Masaüstü\\eticareta\\Yeni-klas-r\\Eticaret\\Eticaret.magaza\\Eticaret.magaza.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
@@ -84,8 +84,8 @@
     {
       "code": "NU1105",
       "level": "Error",
-      "message": "Unable to find project information for 'C:\\Users\\user\\OneDrive\\Masaüstü\\yazılım\\Yeni-klas-r\\Eticaret\\Eticaret.Api\\Eticaret.Api.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
-      "libraryId": "C:\\Users\\user\\OneDrive\\Masaüstü\\yazılım\\Yeni-klas-r\\Eticaret\\Eticaret.Api\\Eticaret.Api.csproj",
+      "message": "Unable to find project information for 'C:\\Users\\user\\OneDrive\\Masaüstü\\eticareta\\Yeni-klas-r\\Eticaret\\Eticaret.Api\\Eticaret.Api.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "C:\\Users\\user\\OneDrive\\Masaüstü\\eticareta\\Yeni-klas-r\\Eticaret\\Eticaret.Api\\Eticaret.Api.csproj",
       "targetGraphs": [
         "net6.0"
       ]

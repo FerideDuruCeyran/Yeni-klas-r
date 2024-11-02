@@ -1,0 +1,123 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\Masa\u00FCst\u00FC\\eticareta\\Yeni-klas-r\\Eticaret\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{45737F62-8E9A-4839-B245-703708095252}|Eticaret.magaza\\Eticaret.magaza.csproj|c:\\users\\user\\onedrive\\masa\u00FCst\u00FC\\eticareta\\yeni-klas-r\\eticaret\\eticaret.magaza\\eticaret.magaza.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{45737F62-8E9A-4839-B245-703708095252}|Eticaret.magaza\\Eticaret.magaza.csproj|solutionrelative:eticaret.magaza\\eticaret.magaza.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45737F62-8E9A-4839-B245-703708095252}|Eticaret.magaza\\Eticaret.magaza.csproj|c:\\users\\user\\onedrive\\masa\u00FCst\u00FC\\eticareta\\yeni-klas-r\\eticaret\\eticaret.magaza\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{45737F62-8E9A-4839-B245-703708095252}|Eticaret.magaza\\Eticaret.magaza.csproj|solutionrelative:eticaret.magaza\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45737F62-8E9A-4839-B245-703708095252}|Eticaret.magaza\\Eticaret.magaza.csproj|c:\\users\\user\\onedrive\\masa\u00FCst\u00FC\\eticareta\\yeni-klas-r\\eticaret\\eticaret.magaza\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{45737F62-8E9A-4839-B245-703708095252}|Eticaret.magaza\\Eticaret.magaza.csproj|solutionrelative:eticaret.magaza\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0EBED3B9-AFB8-45A6-9228-E500052A4C9E}|Eticaret.Web\\Eticaret.Web.csproj|c:\\users\\user\\onedrive\\masa\u00FCst\u00FC\\eticareta\\yeni-klas-r\\eticaret\\eticaret.web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{0EBED3B9-AFB8-45A6-9228-E500052A4C9E}|Eticaret.Web\\Eticaret.Web.csproj|solutionrelative:eticaret.web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45737F62-8E9A-4839-B245-703708095252}|Eticaret.magaza\\Eticaret.magaza.csproj|c:\\users\\user\\onedrive\\masa\u00FCst\u00FC\\eticareta\\yeni-klas-r\\eticaret\\eticaret.magaza\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45737F62-8E9A-4839-B245-703708095252}|Eticaret.magaza\\Eticaret.magaza.csproj|solutionrelative:eticaret.magaza\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{45737F62-8E9A-4839-B245-703708095252}|Eticaret.magaza\\Eticaret.magaza.csproj|c:\\users\\user\\onedrive\\masa\u00FCst\u00FC\\eticareta\\yeni-klas-r\\eticaret\\eticaret.magaza\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45737F62-8E9A-4839-B245-703708095252}|Eticaret.magaza\\Eticaret.magaza.csproj|solutionrelative:eticaret.magaza\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Masa\u00FCst\u00FC\\eticareta\\Yeni-klas-r\\Eticaret\\Eticaret.magaza\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Eticaret.magaza\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Masa\u00FCst\u00FC\\eticareta\\Yeni-klas-r\\Eticaret\\Eticaret.magaza\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Eticaret.magaza\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T19:17:42.382Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Eticaret.magaza",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Masa\u00FCst\u00FC\\eticareta\\Yeni-klas-r\\Eticaret\\Eticaret.magaza\\Eticaret.magaza.csproj",
+              "RelativeDocumentMoniker": "Eticaret.magaza\\Eticaret.magaza.csproj",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Masa\u00FCst\u00FC\\eticareta\\Yeni-klas-r\\Eticaret\\Eticaret.magaza\\Eticaret.magaza.csproj",
+              "RelativeToolTip": "Eticaret.magaza\\Eticaret.magaza.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-26T19:20:25.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "bootstrap.esm.js",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Masa\u00FCst\u00FC\\eticareta\\Yeni-klas-r\\Eticaret\\Eticaret.magaza\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+              "RelativeDocumentMoniker": "Eticaret.magaza\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Masa\u00FCst\u00FC\\eticareta\\Yeni-klas-r\\Eticaret\\Eticaret.magaza\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+              "RelativeToolTip": "Eticaret.magaza\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+              "ViewState": "AgIAAC0CAAAAAAAAAADwvzoCAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-26T19:20:16.661Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "bootstrap.bundle.js",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Masa\u00FCst\u00FC\\eticareta\\Yeni-klas-r\\Eticaret\\Eticaret.magaza\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "RelativeDocumentMoniker": "Eticaret.magaza\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Masa\u00FCst\u00FC\\eticareta\\Yeni-klas-r\\Eticaret\\Eticaret.magaza\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "RelativeToolTip": "Eticaret.magaza\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+              "ViewState": "AgIAADECAAAAAAAAAADwvz4CAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-26T19:20:08.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "additional-methods.js",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Masa\u00FCst\u00FC\\eticareta\\Yeni-klas-r\\Eticaret\\Eticaret.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "RelativeDocumentMoniker": "Eticaret.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Masa\u00FCst\u00FC\\eticareta\\Yeni-klas-r\\Eticaret\\Eticaret.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "RelativeToolTip": "Eticaret.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+              "ViewState": "AgIAAOMAAAAAAAAAAADwv/AAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-10-26T19:20:02.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Masa\u00FCst\u00FC\\eticareta\\Yeni-klas-r\\Eticaret\\Eticaret.magaza\\Program.cs",
+              "RelativeDocumentMoniker": "Eticaret.magaza\\Program.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Masa\u00FCst\u00FC\\eticareta\\Yeni-klas-r\\Eticaret\\Eticaret.magaza\\Program.cs",
+              "RelativeToolTip": "Eticaret.magaza\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T19:20:01.683Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

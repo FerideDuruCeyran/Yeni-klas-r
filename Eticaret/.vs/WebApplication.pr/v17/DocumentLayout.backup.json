@@ -1,0 +1,38 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\user\\OneDrive\\Masa\u00FCst\u00FC\\eticareta\\Yeni-klas-r\\Eticaret\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{45737F62-8E9A-4839-B245-703708095252}|Eticaret.magaza\\Eticaret.magaza.csproj|c:\\users\\user\\onedrive\\masa\u00FCst\u00FC\\eticareta\\yeni-klas-r\\eticaret\\eticaret.magaza\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{45737F62-8E9A-4839-B245-703708095252}|Eticaret.magaza\\Eticaret.magaza.csproj|solutionrelative:eticaret.magaza\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\user\\OneDrive\\Masa\u00FCst\u00FC\\eticareta\\Yeni-klas-r\\Eticaret\\Eticaret.magaza\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Eticaret.magaza\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\user\\OneDrive\\Masa\u00FCst\u00FC\\eticareta\\Yeni-klas-r\\Eticaret\\Eticaret.magaza\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Eticaret.magaza\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T19:17:42.382Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -226,3 +226,6 @@ C:\Users\user\Desktop\yazılım\Yeni-klas-r\Eticaret\Eticaret.Magaza\obj\Debug\n
 C:\Users\user\OneDrive\Masaüstü\yazılım\Yeni-klas-r\Eticaret\Eticaret.magaza\obj\Debug\net6.0\Eticaret.magaza.dll
 C:\Users\user\OneDrive\Masaüstü\yazılım\Yeni-klas-r\Eticaret\Eticaret.magaza\obj\Debug\net6.0\refint\Eticaret.magaza.dll
 C:\Users\user\OneDrive\Masaüstü\yazılım\Yeni-klas-r\Eticaret\Eticaret.magaza\obj\Debug\net6.0\Eticaret.magaza.pdb
+C:\Users\user\OneDrive\Masaüstü\eticareta\Yeni-klas-r\Eticaret\Eticaret.magaza\obj\Debug\net6.0\Eticaret.magaza.dll
+C:\Users\user\OneDrive\Masaüstü\eticareta\Yeni-klas-r\Eticaret\Eticaret.magaza\obj\Debug\net6.0\refint\Eticaret.magaza.dll
+C:\Users\user\OneDrive\Masaüstü\eticareta\Yeni-klas-r\Eticaret\Eticaret.magaza\obj\Debug\net6.0\Eticaret.magaza.pdb

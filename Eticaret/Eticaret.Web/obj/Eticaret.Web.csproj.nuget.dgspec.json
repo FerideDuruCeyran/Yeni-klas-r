@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\OneDrive\\Masaüstü\\yazılım\\Yeni-klas-r\\Eticaret\\Eticaret.Web\\Eticaret.Web.csproj": {}
+    "C:\\Users\\user\\OneDrive\\Masaüstü\\eticareta\\Yeni-klas-r\\Eticaret\\Eticaret.Web\\Eticaret.Web.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\OneDrive\\Masaüstü\\yazılım\\Yeni-klas-r\\Eticaret\\Eticaret.Model\\Eticaret.Model.csproj": {
+    "C:\\Users\\user\\OneDrive\\Masaüstü\\eticareta\\Yeni-klas-r\\Eticaret\\Eticaret.Model\\Eticaret.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Masaüstü\\yazılım\\Yeni-klas-r\\Eticaret\\Eticaret.Model\\Eticaret.Model.csproj",
+        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Masaüstü\\eticareta\\Yeni-klas-r\\Eticaret\\Eticaret.Model\\Eticaret.Model.csproj",
         "projectName": "Eticaret.Model",
-        "projectPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\yazılım\\Yeni-klas-r\\Eticaret\\Eticaret.Model\\Eticaret.Model.csproj",
+        "projectPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\eticareta\\Yeni-klas-r\\Eticaret\\Eticaret.Model\\Eticaret.Model.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\yazılım\\Yeni-klas-r\\Eticaret\\Eticaret.Model\\obj\\",
+        "outputPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\eticareta\\Yeni-klas-r\\Eticaret\\Eticaret.Model\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -34,6 +35,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,18 +61,18 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\user\\OneDrive\\Masaüstü\\yazılım\\Yeni-klas-r\\Eticaret\\Eticaret.Web\\Eticaret.Web.csproj": {
+    "C:\\Users\\user\\OneDrive\\Masaüstü\\eticareta\\Yeni-klas-r\\Eticaret\\Eticaret.Web\\Eticaret.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Masaüstü\\yazılım\\Yeni-klas-r\\Eticaret\\Eticaret.Web\\Eticaret.Web.csproj",
+        "projectUniqueName": "C:\\Users\\user\\OneDrive\\Masaüstü\\eticareta\\Yeni-klas-r\\Eticaret\\Eticaret.Web\\Eticaret.Web.csproj",
         "projectName": "Eticaret.Web",
-        "projectPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\yazılım\\Yeni-klas-r\\Eticaret\\Eticaret.Web\\Eticaret.Web.csproj",
+        "projectPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\eticareta\\Yeni-klas-r\\Eticaret\\Eticaret.Web\\Eticaret.Web.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\yazılım\\Yeni-klas-r\\Eticaret\\Eticaret.Web\\obj\\",
+        "outputPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\eticareta\\Yeni-klas-r\\Eticaret\\Eticaret.Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -77,14 +83,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\user\\OneDrive\\Masaüstü\\yazılım\\Yeni-klas-r\\Eticaret\\Eticaret.Model\\Eticaret.Model.csproj": {
-                "projectPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\yazılım\\Yeni-klas-r\\Eticaret\\Eticaret.Model\\Eticaret.Model.csproj"
+              "C:\\Users\\user\\OneDrive\\Masaüstü\\eticareta\\Yeni-klas-r\\Eticaret\\Eticaret.Model\\Eticaret.Model.csproj": {
+                "projectPath": "C:\\Users\\user\\OneDrive\\Masaüstü\\eticareta\\Yeni-klas-r\\Eticaret\\Eticaret.Model\\Eticaret.Model.csproj"
               }
             }
           }
@@ -93,6 +100,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -133,7 +145,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

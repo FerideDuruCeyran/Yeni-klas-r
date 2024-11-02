@@ -759,7 +759,10 @@
       },
       "Eticaret.Model/1.0.0": {
         "runtime": {
-          "Eticaret.Model.dll": {}
+          "Eticaret.Model.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
